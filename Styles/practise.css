@@ -1,0 +1,128 @@
+
+.header{
+    height: 200px;
+    /* background-color: antiquewhite; */
+    background-image: url('images/developer/which-.jpg');
+    /* background-size:contain; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    background-position:center;
+    margin: 0px auto;
+    padding-top: 20px;
+    
+}
+#wel{
+    color: white;
+    font-size: 40px;
+    text-align:center;
+    margin-top: 10px;
+
+}
+
+p{
+    text-align:left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#head{
+    color:rgba(7, 180, 15, 0.884);
+    background-color: black;
+}
+
+.para, .pa{
+    color:rgb(189, 5, 5);
+    text-align:left;
+    
+}
+.blog{
+    margin: 20px;
+    border: 10px solid brown;
+    /* align-items: center; */
+    background-color: rgba(128, 255, 0, 0.295);
+    width: 400px;
+    height: 445px;
+    border-radius: 10px 40px 20px;
+    box-shadow: 10px 10px 20px gray;
+    display: inline-block;
+    
+}
+.box{
+    border: 10px solid blue;
+    background-color: aquamarine;
+    margin: 40px;
+    border-radius:10px;
+    box-shadow: 10px 10px 20px blueviolet;
+}
+.box2{
+    border: 10px solid tomato;
+    background-color: rgb(209, 17, 193);
+    margin: 40px;
+    border-radius:10px;
+    box-shadow: 10px 10px 20px blueviolet;
+}.box3{
+    border: 10px solid rgb(13, 31, 2);
+    background-color: rgb(63, 1, 150);
+    margin: 40px;
+    border-radius:10px;
+    box-shadow: 10px 10px 20px green;
+}
+.img1{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    margin: 10px;
+    border: 5px solid brown;
+    border-radius: 10px;
+    background-image: url('../images/coc.jpeg');
+}
+.img2{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    margin: 10px;
+    border: 5px solid brown;
+    border-radius: 10px;
+    background-image: url('../images/potato.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+.button{
+    margin-left: 60px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+li{
+    font-style: italic;
+    font-weight: 900;
+}
+.box-model{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px purple;
+    background-color: rgba(5, 177, 71, 0.623);
+    margin:10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.box-model ol{
+    text-align: left;
+}
+.item-box{
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
